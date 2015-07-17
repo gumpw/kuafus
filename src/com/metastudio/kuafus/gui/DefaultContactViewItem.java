@@ -26,7 +26,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class DefaultContactViewItem implements cn.smssdk.gui.ContactItemMaker {
+public class DefaultContactViewItem implements ContactItemMaker {
 
 	@Override
 	public View getView(final HashMap<String, Object> user, View convertView, final ViewGroup parent) {

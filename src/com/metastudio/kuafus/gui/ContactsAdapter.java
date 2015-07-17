@@ -18,12 +18,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
 import android.widget.TextView;
-import cn.smssdk.gui.ContactsListView.GroupAdapter;
 
 /**
  * 联系人列表adapter
  */
-public class ContactsAdapter extends GroupAdapter {
+public class ContactsAdapter extends ContactsListView.GroupAdapter {
 	private ArrayList<String> titles;
 	private ArrayList<ArrayList<HashMap<String, Object>>> contacts;
 

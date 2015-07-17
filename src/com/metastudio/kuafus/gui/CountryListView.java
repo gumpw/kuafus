@@ -22,7 +22,6 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import cn.smssdk.gui.GroupListView.OnItemClickListener;
 
 /** 自定义国家列表控件listview */
 public class CountryListView extends RelativeLayout implements OnTouchListener {
@@ -177,7 +176,7 @@ public class CountryListView extends RelativeLayout implements OnTouchListener {
 	 * 设置listview item 的点击事件监听
 	 * @param listener
 	 */
-	public void setOnItemClickListener(OnItemClickListener listener) {
+	public void setOnItemClickListener(GroupListView.OnItemClickListener listener) {
 		lvContries.setOnItemClickListener(listener);
 	}
 	/**

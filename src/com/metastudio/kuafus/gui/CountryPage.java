@@ -25,10 +25,9 @@ import cn.sharesdk.analysis.MobclickAgent;
 import cn.smssdk.EventHandler;
 import cn.smssdk.SMSSDK;
 import cn.smssdk.framework.FakeActivity;
-import cn.smssdk.gui.GroupListView.OnItemClickListener;
 
 /** 国家列表界面*/
-public class CountryPage extends FakeActivity implements OnClickListener, TextWatcher, OnItemClickListener {
+public class CountryPage extends FakeActivity implements OnClickListener, TextWatcher, GroupListView.OnItemClickListener {
 	private String id;
 	// 国家号码规则
 	private HashMap<String, String> countryRules;

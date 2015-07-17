@@ -19,10 +19,9 @@ import android.view.ViewGroup.LayoutParams;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import cn.smssdk.SMSSDK;
-import cn.smssdk.gui.GroupListView.GroupAdapter;
 
 /** 自定义的国家列表，适配器，用于填充国家listview*/
-public class CountryAdapter extends GroupAdapter {
+public class CountryAdapter extends GroupListView.GroupAdapter {
 	private HashMap<Character, ArrayList<String[]>> rawData;
 	private ArrayList<String> titles;
 	private ArrayList<ArrayList<String[]>> countries;
