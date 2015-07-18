@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="wemall_app_name">WeMall开源商城</string>
+    <string name="kuafus_app_name">夸父</string>
     <string name="wemall_about_us">关于我们</string>
-    <string name="wemall_about_author">Power By:幻舞奇影</string>
+    <string name="wemall_about_author">Magic Joey</string>
     <string name="wemall_add_to_order">加入订单</string>
     <string name="wemall_allgood">全部商品</string>
     <string name="wemall_gpl">使用许可</string>

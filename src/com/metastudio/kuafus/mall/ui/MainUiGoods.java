@@ -28,6 +28,7 @@ import com.metastudio.kuafus.mall.net.NetGoodsData;
 import com.metastudio.kuafus.mall.object.GoodsItem;
 import com.metastudio.kuafus.utils.Utils;
 import com.umeng.analytics.MobclickAgent;
+import com.metastudio.kuafus.mall.R;
 
 /**
  * Author Liu Dewei

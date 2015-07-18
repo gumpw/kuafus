@@ -18,6 +18,7 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
+import com.metastudio.kuafus.mall.R;
 import com.metastudio.kuafus.mall.net.NetChangePasswd;
 import com.metastudio.kuafus.mall.net.NetServerErr;
 

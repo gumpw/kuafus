@@ -8,7 +8,7 @@
     android:paddingLeft="0dp"
     android:paddingRight="0dp" >
 
-    <cn.edu.zzu.wemall.myview.XListView
+    <com.metastudio.kuafus.mall.myview.XListView
         android:id="@id/android:list"
         android:layout_width="match_parent"
         android:layout_height="0dp"

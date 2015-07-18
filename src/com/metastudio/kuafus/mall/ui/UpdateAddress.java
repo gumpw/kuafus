@@ -8,6 +8,7 @@ import com.amap.api.location.LocationProviderProxy;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
+import com.metastudio.kuafus.mall.R;
 import android.content.Intent;
 import android.location.Location;
 import android.os.Bundle;
@@ -22,6 +23,8 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
+import com.metastudio.kuafus.mall.net.NetNewAddress;
+import com.metastudio.kuafus.utils.Utils;
 
 public class UpdateAddress extends Activity implements AMapLocationListener {
 	private ViewGroup backbar;
@@ -106,10 +109,10 @@ public class UpdateAddress extends Activity implements AMapLocationListener {
 			public void run() {
 				// xmlwebData解析网络中xml中的数据
 				state = NetNewAddress.getData("uid="
-						+ uid
-						+ "&address="
-						+ URLEncoder.encode(Utils.getBASE64(newaddress
-								.getText().toString())));
+                        + uid
+                        + "&address="
+                        + URLEncoder.encode(Utils.getBASE64(newaddress
+                        .getText().toString())));
 				// 发送消息，并把persons结合对象传递过去
 				handler.sendEmptyMessage(0x22199);
 			}

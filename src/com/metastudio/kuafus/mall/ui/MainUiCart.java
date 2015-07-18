@@ -32,6 +32,7 @@ import android.widget.ProgressBar;
 import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
+import com.metastudio.kuafus.mall.R;
 
 /**
  * 购物车

@@ -1,5 +1,7 @@
 package com.metastudio.kuafus.mall.net;
 
+import com.metastudio.kuafus.mall.config.MyConfig;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;

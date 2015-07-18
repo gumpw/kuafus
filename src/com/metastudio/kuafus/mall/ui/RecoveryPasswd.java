@@ -1,6 +1,5 @@
 package com.metastudio.kuafus.mall.ui;
 
-import cn.edu.zzu.wemall.R;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
@@ -16,6 +15,7 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
+import com.metastudio.kuafus.mall.R;
 import com.metastudio.kuafus.mall.net.NetUserRecovery;
 
 public class RecoveryPasswd extends Activity {

@@ -20,6 +20,9 @@ import com.metastudio.kuafus.mall.mylazylist.ImageLoader;
 import com.metastudio.kuafus.mall.object.GoodsItem;
 import com.umeng.analytics.MobclickAgent;
 import com.umeng.analytics.social.UMSocialService;
+import com.metastudio.kuafus.mall.R;
+//import com.umeng.socialize.bean.SHARE_MEDIA;
+//import com.umeng.socialize.controller.UMServiceFactory;
 
 /*
  * 
@@ -47,8 +50,8 @@ public class ItemDetails extends Activity implements OnClickListener {
 	private SQLProcess wemalldb;
 	// ///////////////////////////////////////////////////
 	// 首先在您的Activity中添加如下成员变量
-	final UMSocialService mController = UMServiceFactory
-			.getUMSocialService("com.umeng.share");
+//	final com.umeng.socialize.controller.UMSocialService mController =  UMServiceFactory
+//			.getUMSocialService("com.umeng.share");
 	// ///////////////////////////////////////////////////
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -100,31 +103,31 @@ public class ItemDetails extends Activity implements OnClickListener {
 		String sharecontent="我正在WeMall移动商城购买"+this.goodname+",物美价廉，大家快来下载使用吧";
 		String shareurl="www.itlaborer.com";
 		String sharetitle="WeMall移动商城";
-		mController.setShareContent(sharecontent);
-		mController.getConfig().removePlatform(SHARE_MEDIA.RENREN,
-				SHARE_MEDIA.DOUBAN);
-		UMQQSsoHandler qqSsoHandler = new UMQQSsoHandler(this, "100424468",
-				"c7394704798a158208a74ab60104f0ba");
-		qqSsoHandler.addToSocialSDK();
-		QQShareContent qqShareContent = new QQShareContent();
-		// 设置分享文字
-		qqShareContent.setShareContent(sharecontent);
-		// 设置分享title
-		qqShareContent.setTitle(sharetitle);
-		// 设置点击分享内容的跳转链接
-		qqShareContent.setTargetUrl(shareurl);
-		mController.setShareMedia(qqShareContent);
-		QZoneSsoHandler qZoneSsoHandler = new QZoneSsoHandler(this,
-				"100424468", "c7394704798a158208a74ab60104f0ba");
-		qZoneSsoHandler.addToSocialSDK();
-		QZoneShareContent qzone = new QZoneShareContent();
-		// 设置分享文字
-		qzone.setShareContent(sharecontent);
-		// 设置点击消息的跳转URL
-		qzone.setTargetUrl(shareurl);
-		// 设置分享内容的标题
-		qzone.setTitle(sharetitle);
-		mController.setShareMedia(qzone);
+//		mController.setShareContent(sharecontent);
+//		mController.getConfig().removePlatform(SHARE_MEDIA.RENREN,
+//				SHARE_MEDIA.DOUBAN);
+//		UMQQSsoHandler qqSsoHandler = new UMQQSsoHandler(this, "100424468",
+//				"c7394704798a158208a74ab60104f0ba");
+//		qqSsoHandler.addToSocialSDK();
+//		QQShareContent qqShareContent = new QQShareContent();
+//		// 设置分享文字
+//		qqShareContent.setShareContent(sharecontent);
+//		// 设置分享title
+//		qqShareContent.setTitle(sharetitle);
+//		// 设置点击分享内容的跳转链接
+//		qqShareContent.setTargetUrl(shareurl);
+//		mController.setShareMedia(qqShareContent);
+//		QZoneSsoHandler qZoneSsoHandler = new QZoneSsoHandler(this,
+//				"100424468", "c7394704798a158208a74ab60104f0ba");
+//		qZoneSsoHandler.addToSocialSDK();
+//		QZoneShareContent qzone = new QZoneShareContent();
+//		// 设置分享文字
+//		qzone.setShareContent(sharecontent);
+//		// 设置点击消息的跳转URL
+//		qzone.setTargetUrl(shareurl);
+//		// 设置分享内容的标题
+//		qzone.setTitle(sharetitle);
+//		mController.setShareMedia(qzone);
 
 		// /////////////////////////////////////////////////////////////
 	}
@@ -168,7 +171,7 @@ public class ItemDetails extends Activity implements OnClickListener {
 			}
 			break;
 		case R.id.title_right_button_details:
-			mController.openShare(ItemDetails.this, false);
+//			mController.openShare(ItemDetails.this, false);
 			break;
 		case R.id.title_left_layout_details:
 			this.config_exit_this_activity();

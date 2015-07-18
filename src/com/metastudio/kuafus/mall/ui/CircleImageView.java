@@ -1,6 +1,6 @@
 package com.metastudio.kuafus.mall.ui;
 
-import cn.edu.zzu.wemall.R;
+
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Bitmap;
@@ -16,6 +16,7 @@ import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.util.AttributeSet;
+import com.metastudio.kuafus.mall.R;
 import android.widget.ImageView;
 
 public class CircleImageView extends ImageView {

@@ -6,6 +6,7 @@ import java.util.List;
 
 import com.metastudio.kuafus.mall.adapter.MenuAdapter;
 import com.metastudio.kuafus.mall.adapter.PagerAdapter;
+import com.metastudio.kuafus.mall.net.NetGoodsType;
 import com.umeng.analytics.MobclickAgent;
 
 import android.annotation.SuppressLint;
@@ -36,6 +37,7 @@ import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.ListView;
 import android.widget.RadioButton;
+import com.metastudio.kuafus.mall.R;
 import android.widget.TextView;
 import android.widget.Toast;
 

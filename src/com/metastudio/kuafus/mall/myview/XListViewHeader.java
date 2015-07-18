@@ -18,7 +18,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-import cn.edu.zzu.wemall.R;
+import com.metastudio.kuafus.mall.R;
+
 /**
  * 
  * 

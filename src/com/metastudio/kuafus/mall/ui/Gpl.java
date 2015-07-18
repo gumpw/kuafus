@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.view.Window;
 import android.webkit.WebSettings.RenderPriority;
 import android.webkit.WebView;
+import com.metastudio.kuafus.mall.R;
 
 public class Gpl extends Activity {
 	private ViewGroup back;

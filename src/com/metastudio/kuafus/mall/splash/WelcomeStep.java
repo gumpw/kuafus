@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
+import com.metastudio.kuafus.mall.R;
 import com.metastudio.kuafus.mall.ui.MainUIMain;
 
 /**

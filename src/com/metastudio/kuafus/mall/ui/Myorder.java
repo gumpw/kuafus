@@ -18,12 +18,12 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
-import cn.edu.zzu.wemall.R;
 import com.metastudio.kuafus.mall.adapter.OrderAdapter;
 import com.metastudio.kuafus.mall.adapter.OrderPopAdapter;
 import com.metastudio.kuafus.mall.myview.XListView;
 import com.metastudio.kuafus.mall.net.NetOrdersData;
 import com.metastudio.kuafus.mall.object.OrderItem;
+import com.metastudio.kuafus.mall.R;
 import com.metastudio.kuafus.utils.Utils;
 
 public class Myorder extends Activity implements XListView.IXListViewListener {

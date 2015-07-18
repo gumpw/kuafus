@@ -10,6 +10,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.preference.PreferenceManager;
+import cn.smssdk.SMSSDK;
+import com.metastudio.kuafus.mall.R;
 import com.metastudio.kuafus.mall.database.SQLProcess;
 import com.metastudio.kuafus.mall.ui.MainUIMain;
 import com.umeng.analytics.MobclickAgent;
@@ -30,7 +32,7 @@ public class SplashActivity extends Activity {
 
 			PackageInfo info;
 			try {
-				info = getPackageManager().getPackageInfo("cn.edu.zzu.wemall",
+				info = getPackageManager().getPackageInfo("com.metastudio.kuafus.mall",
 						0);
 				int currentVersion = info.versionCode;
 				SharedPreferences prefs = PreferenceManager

@@ -1,4 +1,4 @@
-package com.sina.sso;
+package com.metastudio.kuafus.sso;
 
 interface RemoteSSO {
 	String getPackageName();

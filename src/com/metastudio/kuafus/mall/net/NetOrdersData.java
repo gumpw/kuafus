@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Iterator;
 
+import com.metastudio.kuafus.mall.config.MyConfig;
 import com.metastudio.kuafus.mall.object.OrderItem;
 import org.dom4j.Document;
 import org.dom4j.DocumentHelper;

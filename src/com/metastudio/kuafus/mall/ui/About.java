@@ -25,6 +25,7 @@ import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.TextView;
 import android.widget.Toast;
+import com.metastudio.kuafus.mall.R;
 import com.metastudio.kuafus.mall.config.MyConfig;
 import com.metastudio.kuafus.mall.net.NetCheckUp;
 import com.metastudio.kuafus.utils.Utils;
@@ -50,7 +51,7 @@ public class About extends Activity {
 		this.wemall_gpl=(ViewGroup) findViewById(R.id.about_official_gpl);
 		try {
 			String currentVersion = getPackageManager().getPackageInfo(
-					"cn.edu.zzu.wemall", 0).versionName;
+					"com.metastudio.kuafus.mall", 0).versionName;
 			version.setText(currentVersion);
 		} catch (NameNotFoundException e) {
 			// TODO Auto-generated catch block
@@ -145,7 +146,7 @@ public class About extends Activity {
 						try {
 							PackageInfo info;
 							info = getPackageManager().getPackageInfo(
-									"cn.edu.zzu.wemall", 0);
+									"com.metastudio.kuafus.mall", 0);
 							currentVersion = info.versionCode;
 						} catch (Exception e) {
 							// TODO: handle exception

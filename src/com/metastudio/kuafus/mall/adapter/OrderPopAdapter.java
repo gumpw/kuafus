@@ -13,6 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
+import com.metastudio.kuafus.mall.R;
 
 public class OrderPopAdapter extends BaseAdapter {
 	/**

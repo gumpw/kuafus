@@ -56,7 +56,7 @@
     </RelativeLayout>
     <!-- 以上为Bar布局 -->
 
-    <cn.edu.zzu.wemall.myview.XListView
+    <com.metastudio.kuafus.mall.myview.XListView
         android:id="@+id/listorder"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -64,7 +64,7 @@
         android:cacheColorHint="#00000000"
         android:fadingEdge="none"
         android:divider="@null" >
-    </cn.edu.zzu.wemall.myview.XListView>
+    </com.metastudio.kuafus.mall.myview.XListView>
 
     
     <ProgressBar

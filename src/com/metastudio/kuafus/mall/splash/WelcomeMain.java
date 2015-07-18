@@ -15,6 +15,7 @@ import android.view.WindowManager;
 import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.RadioButton;
+import com.metastudio.kuafus.mall.R;
 
 /**
  * 欢迎页主页面

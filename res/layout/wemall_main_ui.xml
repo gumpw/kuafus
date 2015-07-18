@@ -6,7 +6,7 @@
 
     <!-- 侧目录标签,此元素只允许有两个子元素,一个为侧划菜单,一个为正常显示的内容 -->
 
-    <cn.edu.zzu.wemall.ui.SlideMenu
+    <com.metastudio.kuafus.mall.ui.SlideMenu
         android:id="@+id/slide_menu"
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
@@ -146,6 +146,6 @@
                     android:textColor="@color/wemall_button_text_color" />
             </RadioGroup>
         </RelativeLayout>
-    </cn.edu.zzu.wemall.ui.SlideMenu>
+    </com.metastudio.kuafus.mall.ui.SlideMenu>
 
 </RelativeLayout>

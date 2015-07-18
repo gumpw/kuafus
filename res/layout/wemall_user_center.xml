@@ -24,7 +24,7 @@
                 android:background="@drawable/wemall_white_to_gray"
                 android:clickable="true" >
 
-                <cn.edu.zzu.wemall.ui.CircleImageView
+                <com.metastudio.kuafus.mall.ui.CircleImageView
                     xmlns:app="http://schemas.android.com/apk/res-auto"
                     android:id="@+id/user_center_user_icon"
                     android:layout_width="@dimen/wemall_user_center_user_icon_layout_width"

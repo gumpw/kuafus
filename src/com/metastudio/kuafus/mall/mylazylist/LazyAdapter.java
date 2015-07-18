@@ -9,6 +9,8 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+import com.metastudio.kuafus.mall.R;
+import com.metastudio.kuafus.mall.config.MyConfig;
 import com.metastudio.kuafus.mall.object.GoodsItem;
 
 import java.util.ArrayList;

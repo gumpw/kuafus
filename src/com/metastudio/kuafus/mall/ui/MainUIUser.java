@@ -4,12 +4,15 @@ import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.util.HashMap;
 
+import cn.smssdk.EventHandler;
+import cn.smssdk.SMSSDK;
 import com.metastudio.kuafus.gui.RecoveryPage;
 import com.metastudio.kuafus.gui.RegisterPage;
 import com.metastudio.kuafus.mall.config.MyConfig;
 import com.metastudio.kuafus.mall.http.AsyncHttpClient;
 import com.metastudio.kuafus.mall.http.AsyncHttpResponseHandler;
 import com.metastudio.kuafus.mall.http.RequestParams;
+import com.metastudio.kuafus.mall.mylazylist.FileCache;
 import com.metastudio.kuafus.mall.mylazylist.ImageLoader;
 import com.metastudio.kuafus.mall.net.NetLoginCheck;
 import com.metastudio.kuafus.utils.Utils;
@@ -40,6 +43,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import com.metastudio.kuafus.mall.R;
 import android.widget.Toast;
 
 import com.umeng.analytics.MobclickAgent;
@@ -618,8 +622,8 @@ public class MainUIUser extends Fragment implements OnClickListener {
 									Toast.LENGTH_SHORT).show();
 							// 新的头像上传成功后旧的缓存失效,我们需要删除之//
 							FileCache.Filedelete(MyConfig.SERVERADDRESSBASE
-									+ "Api/uploads/" + Utils.MD5(useruid)
-									+ ".jpg");
+                                    + "Api/uploads/" + Utils.MD5(useruid)
+                                    + ".jpg");
 
 						} else {
 							Toast.makeText(getActivity(), "头像上传失败!",
