@@ -28,12 +28,12 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/kuafus_logo"
-        android:label="@string/wemall_app_name"
+        android:label="@string/kuafus_app_name"
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.metastudio.kuafus.mall.splash.SplashActivity"
             android:configChanges="orientation|keyboardHidden"
-            android:label="@string/wemall_app_name"
+            android:label="@string/kuafus_app_name"
             android:noHistory="true"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
@@ -45,7 +45,7 @@
         <activity
             android:name="com.metastudio.kuafus.mall.splash.WelcomeMain"
             android:configChanges="orientation|keyboardHidden"
-            android:label="@string/wemall_app_name"
+            android:label="@string/kuafus_app_name"
             android:noHistory="true"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
